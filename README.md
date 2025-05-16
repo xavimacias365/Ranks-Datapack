@@ -3,7 +3,8 @@ This datapack provides you more than 30 unique ranks for your Minecraft server. 
 The datapack also includes an option to create your own custom ranks.
 
 1. Minecraft compatible version = +1.21.X (datapack tested and developed on Minecraft 1.21.5)
-2. If you find a bug, have any question or suggestion, report it on the [DATAPACK WEBPAGE](https://www.planetminecraft.com/data-pack/ranks-datapack/).
+
+If you find a bug, have any question or suggestion, report it on the [DATAPACK WEBPAGE](https://www.planetminecraft.com/data-pack/ranks-datapack/).
 
 # IMPORTANT! #
 1. On Spigot or Bukkit servers, ranks may not appear on chat and server list due to a bug in these plugin engines.
