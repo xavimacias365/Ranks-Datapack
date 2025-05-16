@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Ranks Datapack",
+            "color": "red"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "id": "minecraft:red_wool",
+            "count": 1
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "ranks": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "creeperx365:root"
+}

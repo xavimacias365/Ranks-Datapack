@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "CREEPERx365's Projects",
+            "color": "white"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "id": "minecraft:player_head",
+                "components": {
+                    "minecraft:profile": {
+                        "name": "CREEPERx365"
+                    }
+                },
+                "count": 1
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:block/black_concrete"
+    },
+    "criteria": {
+        "creeperx365": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
