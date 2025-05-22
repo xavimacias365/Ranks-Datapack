@@ -68,22 +68,22 @@
         team modify MOD color white
         team modify MODERATOR color white
         team modify Owner color gold
-        team modify STAFF color white
+        team modify STAFF color gray
         team modify SUPPORT color gray
 
         team modify Booster color light_purple
-        team modify Kick color green
-        team modify Partner color light_purple
+        team modify Kick color white
+        team modify Partner color white
         team modify Streamer color white
         team modify Twitch color white
         team modify YouTuber color white
 
-        team modify Champion color white
-        team modify GOD color white
+        team modify Champion color yellow
+        team modify GOD color yellow
         team modify MVP color yellow
         team modify MVP+ color yellow
-        team modify OP color white
-        team modify TITAN color gold
+        team modify OP color gray
+        team modify TITAN color white
         team modify VIP color yellow
         team modify VIP+ color yellow
 
@@ -95,12 +95,12 @@
 
         team modify CONTROL color white
         team modify MASTER color gold
-        team modify Observer color gray
+        team modify Observer color dark_gray
 
-        team modify Adventure color gray
+        team modify Adventure color white
         team modify Creative color gray
-        team modify Spectator color gray
-        team modify Survival color gray
+        team modify Spectator color dark_gray
+        team modify Survival color white
 
     # Teams Prefix (Credits to MisterioClient for the description ranks)
         team modify ADMIN prefix {"text":"| ADMIN | ","color":"dark_red","hover_event":{"action":"show_text","value":" §4| ADMIN | "}}
@@ -164,7 +164,7 @@
         team modify Booster suffix {"text":" 🔥","color":"gold","hover_event":{"action":"show_text","value":" §d[Booster] "}}
         team modify Kick suffix {"text":" ◉","color":"white","hover_event":{"action":"show_text","value":" §a‹ Twitch › "}}
         team modify Partner suffix {"text":" 🔥","color":"gold","hover_event":{"action":"show_text","value":" §5[Partner] "}}
-        team modify Streamer suffix {"text":" ◉","color":"white","hover_event":{"action":"show_text","value":" §9< Streamer > "}}
+        team modify Streamer suffix {"text":" ◉","color":"white","hover_event":{"action":"show_text","value":" §f< Streamer > "}}
         team modify Twitch suffix {"text":" ◉","color":"white","hover_event":{"action":"show_text","value":" §5‹ Twitch › "}}
         team modify YouTuber suffix {"text":" ◉","color":"white","hover_event":{"action":"show_text","value":" §6« §cYou§fTuber §6» "}}
 
@@ -184,7 +184,7 @@
         #team modify Veteran suffix
 
         team modify CONTROL suffix {"text":"  ⚔","color":"white","hover_event":{"action":"show_text","value":" §b[CONTROL] "}}
-        team modify MASTER suffix {"text":" ⚔","color":"white","hover_event":{"action":"show_text","value":" 6[MASTER] "}}
+        team modify MASTER suffix {"text":" ⚔","color":"white","hover_event":{"action":"show_text","value":" §6[MASTER] "}}
         #team modify Observer suffix
 
         team modify Adventure suffix {"text":" •","color":"gray","hover_event":{"action":"show_text","value":" §7[Adventure] "}}
