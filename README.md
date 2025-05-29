@@ -18,7 +18,7 @@ If you find a bug, have any question or suggestion, report it on the [DATAPACK W
 3. Done!
 
 # Create your custom rank! #
-1. Initialize your custom rank:
+1. Create your custom rank:
 
     `/team add <nameRank>`
 

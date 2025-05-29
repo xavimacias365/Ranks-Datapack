@@ -12,7 +12,7 @@
     advancement grant @a[advancements={creeperx365:ranks=false},gamemode=creative] only creeperx365:ranks
     
 ## Teams Set up ##
-    # Create Teams
+    # Create Teams (38)
         team add ADMIN
         team add BUILDER
         team add Co-ADMIN
@@ -59,7 +59,7 @@
 
     # Teams Color
         team modify ADMIN color white
-        team modify BUILDER color gray
+        team modify BUILDER color white
         team modify Co-ADMIN color white
         team modify Developer color gray
         team modify INVITED+ color white
@@ -67,7 +67,7 @@
         team modify MEMBER+ color white
         team modify MOD color white
         team modify MODERATOR color white
-        team modify Owner color gold
+        team modify Owner color white
         team modify STAFF color gray
         team modify SUPPORT color gray
 
@@ -82,8 +82,8 @@
         team modify GOD color yellow
         team modify MVP color yellow
         team modify MVP+ color yellow
-        team modify OP color gray
-        team modify TITAN color white
+        team modify OP color yellow
+        team modify TITAN color yellow
         team modify VIP color yellow
         team modify VIP+ color yellow
 
@@ -148,34 +148,34 @@
         team modify Survival prefix {"text":"[Survival] ","color":"gray","hover_event":{"action":"show_text","value":" §7[Survival] "}}
 
     # Teams Suffix (Credits to MisterioClient for the description ranks)
-        team modify ADMIN suffix {"text":" ✧","color":"gold","hover_event":{"action":"show_text","value":"  §4| ADMIN |  "}}
-        team modify BUILDER suffix {"text":" ⛏","color":"white","hover_event":{"action":"show_text","value":" §6〈 BUILDER 〉 "}}
-        team modify Co-ADMIN suffix {"text":" ✧","color":"gold","hover_event":{"action":"show_text","value":"  §c⌠ Co-ADMIN ⌡  "}}
+        team modify ADMIN suffix {"text":" ✧","color":"yellow","hover_event":{"action":"show_text","value":"  §4| ADMIN |  "}}
+        team modify BUILDER suffix {"text":" ⛏","color":"yellow","hover_event":{"action":"show_text","value":" §6〈 BUILDER 〉 "}}
+        team modify Co-ADMIN suffix {"text":" ✧","color":"yellow","hover_event":{"action":"show_text","value":"  §c⌠ Co-ADMIN ⌡  "}}
         team modify Developer suffix {"text":" ✎","color":"yellow","hover_event":{"action":"show_text","value":" §9○ Developer ○ "}}
         team modify INVITED+ suffix {"text":" ✚","color":"gray","hover_event":{"action":"show_text","value":" §3( INVITED+ ) "}}
         team modify MEMBER suffix {"text":" ♠","color":"gray","hover_event":{"action":"show_text","value":" §a[MEMBER] "}}
         team modify MEMBER+ suffix {"text":" ♠","color":"gray","hover_event":{"action":"show_text","value":" §a[MEMBER+] "}}
-        team modify MOD suffix {"text":" ✎","color":"gold","hover_event":{"action":"show_text","value":" §2[MOD] "}}
-        team modify MODERATOR suffix {"text":" ✎","color":"gold","hover_event":{"action":"show_text","value":" §5◄ MODERATOR ► "}}
+        team modify MOD suffix {"text":" ✎","color":"yellow","hover_event":{"action":"show_text","value":" §2[MOD] "}}
+        team modify MODERATOR suffix {"text":" ✎","color":"yellow","hover_event":{"action":"show_text","value":" §5◄ MODERATOR ► "}}
         team modify Owner suffix {"text":" ★","color":"yellow","hover_event":{"action":"show_text","value":" §6• Owner • "}}
         team modify STAFF suffix {"text":" ✎","color":"yellow","hover_event":{"action":"show_text","value":" §6| STAFF | "}}
-        team modify SUPPORT suffix {"text":" ✎","color":"gold","hover_event":{"action":"show_text","value":" §c| SUPPORT | "}}
+        team modify SUPPORT suffix {"text":" ✎","color":"yellow","hover_event":{"action":"show_text","value":" §c| SUPPORT | "}}
 
         team modify Booster suffix {"text":" 🔥","color":"gold","hover_event":{"action":"show_text","value":" §d[Booster] "}}
-        team modify Kick suffix {"text":" ◉","color":"white","hover_event":{"action":"show_text","value":" §a‹ Twitch › "}}
+        team modify Kick suffix {"text":" ◉","color":"gold","hover_event":{"action":"show_text","value":" §a‹ Twitch › "}}
         team modify Partner suffix {"text":" 🔥","color":"gold","hover_event":{"action":"show_text","value":" §5[Partner] "}}
-        team modify Streamer suffix {"text":" ◉","color":"white","hover_event":{"action":"show_text","value":" §f< Streamer > "}}
-        team modify Twitch suffix {"text":" ◉","color":"white","hover_event":{"action":"show_text","value":" §5‹ Twitch › "}}
-        team modify YouTuber suffix {"text":" ◉","color":"white","hover_event":{"action":"show_text","value":" §6« §cYou§fTuber §6» "}}
+        team modify Streamer suffix {"text":" ◉","color":"gold","hover_event":{"action":"show_text","value":" §f< Streamer > "}}
+        team modify Twitch suffix {"text":" ◉","color":"gold","hover_event":{"action":"show_text","value":" §5‹ Twitch › "}}
+        team modify YouTuber suffix {"text":" ◉","color":"gold","hover_event":{"action":"show_text","value":" §6« §cYou§fTuber §6» "}}
 
-        team modify Champion suffix {"text":" ✪","color":"white","hover_event":{"action":"show_text","value":" §e⬧ Champion ⬧ "}}
-        team modify GOD suffix {"text":" ✧","color":"yellow","hover_event":{"action":"show_text","value":" §b|§e GOD §b| "}}
-        team modify MVP suffix {"text":" ✪","color":"white","hover_event":{"action":"show_text","value":" §6⬨ MVP ⬨ "}}
-        team modify MVP+ suffix {"text":" ✪","color":"white","hover_event":{"action":"show_text","value":" §6⬨ MVP+ ⬨ "}}
-        team modify OP suffix {"text":" ✧","color":"gold","hover_event":{"action":"show_text","value":" §6• OP • "}}
-        team modify TITAN suffix {"text":" ⬢","color":"white","hover_event":{"action":"show_text","value":" §6🛡 TITAN 🛡 "}}
-        team modify VIP suffix {"text":" ✪","color":"white","hover_event":{"action":"show_text","value":" §6✦ VIP ✦ "}}
-        team modify VIP+ suffix {"text":" ✪","color":"white","hover_event":{"action":"show_text","value":" §e✦ VIP+ ✦ "}}
+        team modify Champion suffix {"text":" ✪","color":"gray","hover_event":{"action":"show_text","value":" §e⬧ Champion ⬧ "}}
+        team modify GOD suffix {"text":" ✧","color":"gray","hover_event":{"action":"show_text","value":" §b|§e GOD §b| "}}
+        team modify MVP suffix {"text":" ✪","color":"gray","hover_event":{"action":"show_text","value":" §6⬨ MVP ⬨ "}}
+        team modify MVP+ suffix {"text":" ✪","color":"gray","hover_event":{"action":"show_text","value":" §6⬨ MVP+ ⬨ "}}
+        team modify OP suffix {"text":" ✧","color":"yellow","hover_event":{"action":"show_text","value":" §6• OP • "}}
+        team modify TITAN suffix {"text":" ⬢","color":"gray","hover_event":{"action":"show_text","value":" §6🛡 TITAN 🛡 "}}
+        team modify VIP suffix {"text":" ✪","color":"gray","hover_event":{"action":"show_text","value":" §6✦ VIP ✦ "}}
+        team modify VIP+ suffix {"text":" ✪","color":"gray","hover_event":{"action":"show_text","value":" §e✦ VIP+ ✦ "}}
 
         #team modify Expert suffix
         #team modify Gamer suffix
@@ -183,8 +183,8 @@
         #team modify User suffix
         #team modify Veteran suffix
 
-        team modify CONTROL suffix {"text":"  ⚔","color":"white","hover_event":{"action":"show_text","value":" §b[CONTROL] "}}
-        team modify MASTER suffix {"text":" ⚔","color":"white","hover_event":{"action":"show_text","value":" §6[MASTER] "}}
+        team modify CONTROL suffix {"text":"  ⚔","color":"gray","hover_event":{"action":"show_text","value":" §b[CONTROL] "}}
+        team modify MASTER suffix {"text":" ⚔","color":"gray","hover_event":{"action":"show_text","value":" §6[MASTER] "}}
         #team modify Observer suffix
 
         team modify Adventure suffix {"text":" •","color":"gray","hover_event":{"action":"show_text","value":" §7[Adventure] "}}
